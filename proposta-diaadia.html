@@ -1312,14 +1312,14 @@ body { font-family: 'Inter', sans-serif; background: var(--dark); color: var(--t
         </div>
         <div style="display:flex;align-items:center;gap:.4rem">
           <div style="width:12px;height:12px;border-radius:3px;background:#D97B6C;flex-shrink:0"></div>
-          <span style="font-size:.7rem;color:var(--ml)">Ajuste grandes unidades</span>
+          <span style="font-size:.7rem;color:var(--ml)">Ajuste unidades especiais</span>
         </div>
         <div style="display:flex;align-items:center;gap:.4rem">
           <div style="width:12px;height:12px;border-radius:3px;background:#B8783A;flex-shrink:0"></div>
           <span style="font-size:.7rem;color:var(--ml)">Saldo líquido</span>
         </div>
       </div>
-      <p style="font-size:.63rem;color:var(--ml);margin-top:.6rem;font-weight:300">Ajuste estimado com base em: LEM 8 coletas/mês (+R$ 883/col.) · Gurupi 4 coletas/mês (+R$ 243/col.)</p>
+      <p style="font-size:.63rem;color:var(--ml);margin-top:.6rem;font-weight:300">Ajuste estimado com base em: LEM 8 coletas/mês (+R$ 883/col.) · Gurupi 4 coletas/mês (+R$ 243/col.) — unidades especiais</p>
     </div>
   </div>
 
@@ -1350,7 +1350,7 @@ body { font-family: 'Inter', sans-serif; background: var(--dark); color: var(--t
         { label: 'Menos\nresíduo',     value: econ,       float: 0,                                  color: '#8AA5FF', isBase: false, isNeg: false },
         { label: 'Receita\nreciclável',value: recReceita, float: econ,                               color: '#FFBA86', isBase: false, isNeg: false },
         { label: 'Receita\nóleo',      value: oleoRec,    float: econ + recReceita,                  color: '#FFBA86', isBase: false, isNeg: false },
-        { label: 'Ajuste\ngrandes un.',value: ajuste,     float: econ + recReceita + oleoRec - ajuste, color: '#D97B6C', isBase: false, isNeg: true  },
+        { label: 'Ajuste\nun. especiais',value: ajuste,     float: econ + recReceita + oleoRec - ajuste, color: '#D97B6C', isBase: false, isNeg: true  },
         { label: 'Saldo\nlíquido',     value: total,      float: 0,                                  color: '#B8783A', isBase: true,  isNeg: false },
       ];
 
@@ -1497,27 +1497,27 @@ body { font-family: 'Inter', sans-serif; background: var(--dark); color: var(--t
             <p class="phase-item">Aditivo contratual Musa ↔ Dia a Dia</p>
             <p class="phase-item">Aviso prévio operadores atuais</p>
             <p class="phase-item">Início de operação com a Musa</p>
-            <p class="phase-item">Atingir 28 lojas ativas</p>
+            <p class="phase-item">Atingir 32 lojas ativas</p>
           </div>
         </div>
         <div class="phase-card">
           <span class="phase-tag">Fase 2 · Maio/26</span>
-          <span class="phase-month">Óleo + Start recicláveis</span>
+          <span class="phase-month">Recicláveis + Unidades especiais</span>
           <div style="display:flex;flex-direction:column;gap:.2rem">
-            <p class="phase-item">Mapeamento + visitas técnicas</p>
-            <p class="phase-item">Planejamento operacional Musa</p>
-            <p class="phase-item">Início operação 10 lojas reciclável</p>
-            <p class="phase-item">Início gestão Musa no óleo DF + GO</p>
+            <p class="phase-item">Revisão de preço LEM e Gurupi</p>
+            <p class="phase-item">Adequação contratual unidades especiais</p>
+            <p class="phase-item">Mapeamento + visitas técnicas reciclável</p>
+            <p class="phase-item">Início operação reciclável 32 lojas</p>
           </div>
         </div>
         <div class="phase-card">
           <span class="phase-tag">Fase 3 · Junho/26</span>
-          <span class="phase-month">Implementação total recicláveis</span>
+          <span class="phase-month">Óleo vegetal</span>
           <div style="display:flex;flex-direction:column;gap:.2rem">
-            <p class="phase-item">Treinamento operadores</p>
-            <p class="phase-item">Treinamento lojas Dia a Dia</p>
-            <p class="phase-item">Ativar reciclável 24 lojas pendentes</p>
-            <p class="phase-item">Consolidar 100% dos resíduos no grupo</p>
+            <p class="phase-item">Mapeamento + visitas técnicas óleo</p>
+            <p class="phase-item">Planejamento operacional Musa</p>
+            <p class="phase-item">Início gestão óleo DF + GO · 32 lojas</p>
+            <p class="phase-item">Gestão centralizada 100% dos resíduos</p>
           </div>
         </div>
       </div>
